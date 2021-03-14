@@ -30,7 +30,7 @@ namespace Eureka.Controllers
                     {
                         type = "Simple",
                         title = "Nitish",
-                        content = "Hello from Nitish, today is a fine day!"
+                        content = "Hello from Nitish today is a fine day"
                     },
                     shouldEndSession = true
                 }
