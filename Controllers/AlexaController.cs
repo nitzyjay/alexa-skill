@@ -41,7 +41,7 @@ namespace Eureka.Controllers
         public dynamic Get()
         {
             var rng = new Random();
-            return "The Web API is up and running";
+            return "Hi, this is a test commit";
         }
     }
 }
