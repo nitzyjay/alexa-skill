@@ -28,7 +28,7 @@ namespace Eureka.Controllers
                     },
                     card = new
                     {
-                        type = "Simple",
+                        type = "Standard",
                         title = "Nitish",
                         content = "Have a nice day!",
                         image = new {
