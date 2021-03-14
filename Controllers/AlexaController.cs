@@ -13,7 +13,7 @@ namespace Eureka.Controllers
     public class AlexaController
     {            
         [HttpPost, Route("api/alexa/demo")]
-        public dynamic Nitish(dynamic request)
+        public dynamic MyApp(dynamic request)
         {
             return new
             {
@@ -24,12 +24,12 @@ namespace Eureka.Controllers
                     outputSpeech = new
                     {
                         type = "PlainText",
-                        text = "Thank you for opening my app, Have a nice day!"
+                        text = "Thank you for opening my test app, Have a nice day!"
                     },
                     card = new
                     {
                         type = "Standard",
-                        title = "Nitish",
+                        title = "Nitish's App",
                         content = "Have a nice day!",
                         image = new {
                            smallImageUrl = "https://media-exp1.licdn.com/dms/image/C4D03AQF-Yt1AroC0SQ/profile-displayphoto-shrink_200_200/0/1609624402960?e=1621468800&v=beta&t=uEakq5UOYp8m_iHtoaE90XMtDDNmXw0Kpx1I9SjDMwQ",
