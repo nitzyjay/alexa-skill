@@ -32,8 +32,8 @@ namespace Eureka.Controllers
                         title = "Nitish",
                         content = "Have a nice day!",
                         image = new {
-                           smallImageUrl = "http://nitishjain.com/images/avatar.jpg",
-                           largeImageUrl = "http://nitishjain.com/images/avatar.jpg"
+                           smallImageUrl = "https://media-exp1.licdn.com/dms/image/C4D03AQF-Yt1AroC0SQ/profile-displayphoto-shrink_200_200/0/1609624402960?e=1621468800&v=beta&t=uEakq5UOYp8m_iHtoaE90XMtDDNmXw0Kpx1I9SjDMwQ",
+                           largeImageUrl = "https://media-exp1.licdn.com/dms/image/C4D03AQF-Yt1AroC0SQ/profile-displayphoto-shrink_200_200/0/1609624402960?e=1621468800&v=beta&t=uEakq5UOYp8m_iHtoaE90XMtDDNmXw0Kpx1I9SjDMwQ"
                         }
                     },
                     shouldEndSession = true
