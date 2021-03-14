@@ -30,7 +30,11 @@ namespace Eureka.Controllers
                     {
                         type = "Simple",
                         title = "Nitish",
-                        content = "Have a nice day!"
+                        content = "Have a nice day!",
+                        image = new {
+                           smallImageUrl = "http://nitishjain.com/images/avatar.jpg",
+                           largeImageUrl = "http://nitishjain.com/images/avatar.jpg"
+                        }
                     },
                     shouldEndSession = true
                 }
