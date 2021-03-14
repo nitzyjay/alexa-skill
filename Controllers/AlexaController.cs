@@ -24,13 +24,13 @@ namespace Eureka.Controllers
                     outputSpeech = new
                     {
                         type = "PlainText",
-                        text = "Hello from Nitish"
+                        text = "Thank you for opening my app, Have a nice day!"
                     },
                     card = new
                     {
                         type = "Simple",
                         title = "Nitish",
-                        content = "Hello from Nitish today is a fine day"
+                        content = "Have a nice day!"
                     },
                     shouldEndSession = true
                 }
